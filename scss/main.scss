@@ -86,3 +86,44 @@ body {
     transform: translateX(0);
   }
 }
+
+
+
+/* @import "_variables.scss";
+
+.user-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include laptop {
+        height: 90vh;
+    }
+}
+
+.user-gallery-header {
+    font-size: 2rem;
+    @include tablet {
+        font-size: 3rem;
+    }
+    @include laptop {
+        font-size: 3.5rem;
+    }
+    @include desktop {
+        font-size: 5rem;
+    }
+}
+
+.user-gallery-gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin: 0 auto;
+    .user-gallery-image {
+        width: 90%;
+        padding: 1rem;
+    }
+}
+
